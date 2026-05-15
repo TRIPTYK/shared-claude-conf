@@ -8,6 +8,9 @@ export function activate(context = {}) {
   };
 }
 
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+const isCliRun =
+  Boolean(process.argv[1]) && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isCliRun) {
   activate();
 }
