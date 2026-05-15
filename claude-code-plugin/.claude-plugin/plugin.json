@@ -1,0 +1,12 @@
+{
+  "name": "triptyk-workflow",
+  "version": "0.1.0",
+  "description": "End-to-end gitScrum workflow skills for feature and fix resolution.",
+  "author": {
+    "name": "AmauryD",
+    "email": "amaury@triptyk.eu"
+  },
+  "repository": "https://github.com/TRIPTYK/shared-claude",
+  "license": "MIT",
+  "keywords": ["gitscrum", "workflow", "feature", "fix", "triptyk"]
+}
