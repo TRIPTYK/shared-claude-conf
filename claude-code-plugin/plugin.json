@@ -1,0 +1,6 @@
+{
+  "name": "example-plugin",
+  "version": "0.1.0",
+  "description": "A starter Claude Code plugin skeleton.",
+  "entrypoint": "./src/index.js"
+}
