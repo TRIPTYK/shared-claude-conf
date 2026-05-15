@@ -9,6 +9,7 @@ export function activate(context = {}) {
 }
 
 const isCliRun =
+  // ESM equivalent of "run as main module" detection.
   Boolean(process.argv[1]) && import.meta.url === pathToFileURL(process.argv[1]).href;
 
 if (isCliRun) {

@@ -11,6 +11,7 @@ This folder contains a minimal starter layout for a Claude Code plugin.
 ## Run
 
 ```bash
+# Optional for now (no dependencies yet); needed once you add packages.
 npm install
 npm start
 ```
