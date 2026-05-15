@@ -1,5 +1,5 @@
 {
-  "name": "example-plugin",
+  "name": "claude-code-plugin-skeleton",
   "version": "0.1.0",
   "description": "A starter Claude Code plugin skeleton.",
   "entrypoint": "./src/index.js"
